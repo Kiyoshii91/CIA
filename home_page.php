@@ -15,9 +15,10 @@
         </div>
         <ul class="nav-menu">
             <li><a href = "#" class = "active">Home</a></li>
-            <li><a href = "#">Divisions</a></li>
-            <li><a href = "#">Individuals</a></li>
-            <li><a href = "#">Case Files</a></li>
+            <li><a href = "#">Archives</a></li>
+            <li><a href = "individuals.php">Dossiers</a></li>
+            <li><a href = "casefiles.php">Case Files</a></li>
+            <li><a href = "#" class = "">Watch Lists</a></li>
         </ul>
     </div>
     <ul class="nav-right">

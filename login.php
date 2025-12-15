@@ -1,6 +1,8 @@
 <?php
-session_start();
+include ('connect.php');
+include ('login_script.php')
 ?>
+
 <!Doctype html>
 <html lang = "en">
     <head>
@@ -11,13 +13,35 @@ session_start();
 <body class = "loginbody">
     <div class = "container">
         <div class = "form-box" id = "login-form">
-        <form action="index.php" method="post">
+        <form name = "LoginForm" action = "login_script.php" onsubmit = "return isvalid()" method="POST">
             <h2>Delta File Archives</h2>
-            <input type="Username" name = "Username" id = "email" placeholder="Username" class = "Uname" required>
-            <input type="Password" name = "Password" id = "password" placeholder="Password" class = "Pword" required>
-            <button type="submit"  name="login" class = "login-button">LOGIN</button>
+            <input type="text" name = "username" id = "username" placeholder="Username" class = "Uname" required>
+            <input type="password" name = "password" id = "password" placeholder="Password" class = "Pword" required>
+            <button type = "submit" id = "btn" name="submit" value = "login" class = "login-button">LOGIN</button>
         </form>
         </div>
     </div>
+    <script>
+        function isvalid(){
+            var username = document.form.user.value;
+            var password = document.form.pass.value;
+            if(username.length == "" && password.length == ""){
+                alert("Please enter your credentials");
+                return false
+            }
+            else{
+                if(username.length == ""){
+                alert("Please enter your Email");
+                return false
+            }
+            else{
+                if(password.length == ""){
+                alert("Please enter your Password");
+                return false
+            }
+        }
+    }
+}
+    </script>
 </body>
 </html>

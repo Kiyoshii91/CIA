@@ -16,8 +16,7 @@
         <ul class="nav-menu">
             <li><a href="starting_page.php" class="">Home</a></li>
             <li><a href="#">Careers</a></li>
-            <li><a href="#">Legacy</a></li>
-            <li><a href="about_page.php" class = "active">Story</a></li>
+            <li><a href="#" class = "active">Legacy</a></li>
         </ul>
     </div>
     <ul class="nav-right">

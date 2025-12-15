@@ -35,9 +35,9 @@
                 <li class = "sub-dropdown-PM">
                     <a href="#">The Three Notable Past Missions</a>
                     <ul class = "sub-sub-dropdown-PM">
-                        <li><a href = "">Operation Iron Fist</a></li>
+                        <li><a href = "">S.O.G.</a></li>
                         <li><a href = "">Operation Starboy</a></li>
-                        <li><a href = "">The Evangelista Contingency</a></li>
+                        <li><a href = "">Project Red-Eye</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Awards and Accolades</a></li>
@@ -58,7 +58,7 @@
                         </p>
                         <hr class = "hr-starting-page">
                         <p class = "hq_sub_story">
-                            In MIIA, there is only one rule in our agency, get the job done or die trying.
+                            In MIIA, there is only one golden rule in our agency, get the job done or die trying.
                         </p>
                          <p class = "hq_sub_sub_story">
                             When carrying out a task for our agency, one might face formidable challenges.
@@ -78,7 +78,7 @@
                         <p class = "v_statement">
                             To build a legacy where honor is the foundation, loyalty is the bond, and courage is the force driving us 
                             beyond fear — forging warriors who command respect not just through strength, but through integrity, unity, 
-                            and fearless commitment to what’s right.
+                            and fearless commitment to what is right.
                         </p>            
             </div>
             <div class="wrapper-starting-page-logo">
