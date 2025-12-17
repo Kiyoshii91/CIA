@@ -8,7 +8,7 @@ include ('login_script.php')
     <head>
         <title> Main Imperial Intelligence Agency </title>
         <link rel="icon" type="image/png" href="MIAALogo.png">
-        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href = "css/loginStyle.css">
 </head>
 <body class = "loginbody">
     <div class = "container">

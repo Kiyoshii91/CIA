@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.h2_Founders{
+    margin-top: 15px;
+}
+.founders{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+.author_c{
+    margin-right: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.author_a{
+    margin-right: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.author_r{
+    margin-right: 0px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.center-line {
+    width: 50%; /* or whatever size you want */
+    margin: 0px auto; /* auto on left/right = centered */
+    border: none;
+    height: 2px;
+    background-color: #f21414;
+}
+.border-author{
+    transition: 0.5s;
+}
+.border-author:hover{
+border:solid 2px white;
+}
+.h2_Names{
+    margin-top: 5px;
+    font-size: 24px;
+    color: #e1e0e0;
+}
+.C_Founders{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 100px;
+}
+.A_Founders{
+    margin-top: 20px;
+    color: #e1e0e0;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+}
+.R_Founders{
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.carl_story{
+    float: left;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-radius: 5%;
+}
+.archie_story{
+    float: right;
+    margin-left:40px;
+    margin-right:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+.rome_story{
+    float: left;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5%;
+}
+/* .vl {
+  border-left: 2px solid red;
+  height: 100%;
+  margin-left: 25px;
+} */
+.wrapper-about{
+    background: linear-gradient(to right, #ffffff, #cccccc, #999999);
+    /* min-height: 185vh;  */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; 
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.about_footer{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.about_footer:hover{
+    /* text-decoration: underline;
+    text-decoration-color: red;
+    color: #f21414;
+    cursor: pointer; */
+}
+.a_story{
+    background: linear-gradient(to left, #1a1a1a, #2a2a2a, #3a3a3a, #4a4a4a, #5a5a5a);
+    padding-top: 10px;
+    min-height: 65vh;
+
+}

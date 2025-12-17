@@ -2,8 +2,9 @@
     <head>
         <title> Main Imperial Intelligence Agency </title>
         <link rel="icon" type="image/png" href="images/MIAALogo.png">
-        <link rel="stylesheet" href = "style.css">
-</head>
+        <link rel="stylesheet" href = "css/style.css">
+        <link rel="stylesheet" href = "css/startingpageStyle.css">
+    </head>
 <body class = "starting_page">
   <nav class="navbar-starting-page">
     <div class="nav-left">
