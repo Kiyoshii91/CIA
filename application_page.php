@@ -2,7 +2,9 @@
     <head>
         <title> Main Imperial Intelligence Agency </title>
         <link rel="icon" type="image/png" href="images/MIAALogo.png">
-        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href = "css/style.css">
+
+        <link rel="stylesheet" href = "css/registrationformStyle.css">
 </head>
 <body class = "application-body">
   <div class = "container-reg">

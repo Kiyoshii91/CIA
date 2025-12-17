@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.homepageheader{
+    padding-top: 20px;
+    margin-right: 250px;
+    text-align: left;
+    align-items: center;
+    color: #e1e0e0;
+    font-family: "Poppins", sans-serif;
+    float: left;
+    display: block;
+    transform: 0.9s;
+}
+.homepageheader:hover{
+    text-decoration: underline;
+    text-decoration-color: #f21414;
+    cursor: pointer;
+}
+.homepage{
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a, #2e2e2e, #3b3b3b);
+    color: #333;
+    margin: 0px;
+}

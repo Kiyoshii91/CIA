@@ -2,7 +2,8 @@
     <head>
         <title> Main Imperial Intelligence Agency </title>
         <link rel="icon" type="image/png" href="images/MIAALogo.png">
-        <link rel="stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel="stylesheet" href = "css/individualStyle.css">
 </head>
 <body class = "individual-page">
  <nav class="navbar-starting-page">
@@ -97,21 +98,6 @@
                     </table>   
                 </div>
             </div>
-            
-            <!-- <h1 class = "case-files-Header3">APPEARANCE</h1>
-            <div class = "agent-info2">
-                 <div class = "agent-details2">
-                    <table class = "individual-table3" cellspacing="5" cellpadding="5" style="width:100%;">
-                    
-                    </table>
-                </div>
-            </div>
-
-             -->
-        <!-- <div class = "footer-indiv">
-            <h3>ACCESS GRANTED - MIIA DATABASE</h3>
-        </div> -->
-
     </main> 
         <footer>
             <div class = "footer-individual-h2"><h2 class = "individuals-footer">ACCESS GRANTED - MIIA DATABASE</h2></div>
